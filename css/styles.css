@@ -1,0 +1,269 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Meie+Script);
+@import url(http://fonts.googleapis.com/css?family=Exo:400,100);
+
+body{
+	min-width:1200px;
+	margin:0; 
+	padding:0; 
+	font-size:100%; 
+	font-family:Georgia, "Times New Roman", Times, serif; 
+	color:#333; 
+	background-color:white;
+	
+	
+}
+
+
+.wrapper{
+	border-top: 5px solid #009D91;
+	border-bottom: 5px solid #009D91;
+	width:1390px;
+	margin:0 auto;
+}
+
+.wrapper h1{
+	text-align:center;
+	font-size:70px;
+	font-family: 'Meie Script', cursive;
+	font-weight: lighter;
+	margin-bottom:35px;
+	margin-top: 150px;
+	
+}
+
+.wrapper h2{
+	text-align:center;
+	font-size:1em;
+	font-family: 'Exo', sans-serif;	font-weight:lighter;
+	margin-top:-55px;
+	color:#804000;
+}
+
+#main{
+	display:block; 
+	width:100%; 
+	text-align:center;
+	margin:0 auto;
+	}
+
+
+#main li{
+	width:160px;
+	float:left;
+	padding:0 20px;
+	position:relative;
+	
+}
+
+#main ul{
+background-color:#fff;	
+height:120px;
+box-shadow: 0px 15px 50px #5E5E5E;
+position:fixed;
+opacity:0.9;
+top:15px;
+z-index:1000;
+list-style-type:none;
+margin:0 auto;
+padding:0;
+width:1390px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+overflow:hidden;
+}
+
+#main a{
+	text-decoration:none;
+	background:#fff;
+	height:110px;
+	line-height:110px;
+	color:#FF6F00;
+    display:block;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin: 0;
+	
+	
+
+}
+
+
+#main a:hover{
+	color:#fff;
+	background:#A64800;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius:6px;
+	
+}
+
+#logo{
+float:left;
+position:relative;
+}
+
+#shout{display:block; 
+width:45.83333%;
+}
+#shout{display:block; 
+float:right; 
+width:55%; 
+line-height:1.3em;
+margin-top: 170px;
+}
+#shout h1{display:inline-block; 
+margin:15px 0 0 0; 
+padding:0; 
+color:#000000; 
+background-color:#FFFFFF; 
+font-size:5em; 
+text-transform:uppercase;
+}
+
+
+.logo{width:auto; 
+width:auto; 
+height:auto; 
+margin:0; 
+padding:0; 
+border:none; 
+line-height:normal; 
+vertical-align:middle;
+margin-top:170px;
+}
+
+.nav_logo{
+	
+	margin:0;
+	width:100%;
+}
+
+.shout{
+	float:right;
+	padding:0;
+	display:block;
+	width:60%;
+	text-align:center;
+	font-size:17px;
+	line-height:25px;
+}
+
+#columns{
+	-moz-column-count:3;
+	height:auto; 
+	border:none;
+	width:1000px;
+	margin:0px auto;
+}
+
+.one, .two, .three{
+	text-align:center;
+	vertical-align:middle;
+	width:95%; 
+	max-width:100%; 
+	height:auto; 
+	border:none; 
+	line-height:normal;	
+	display:inline-block;
+	margin:0;
+	padding:0;
+}
+
+
+.more{
+	
+	padding:8px 10px; 
+	margin-bottom:30px;
+}
+
+.more a{
+	text-decoration:none;
+	}
+	
+.bio{
+	border:4px solid #333;
+	padding:2px;
+}
+
+#wrapper2{
+	border-bottom:5px solid #009D91;
+	width:100%;
+	margin:100px auto;
+	}
+	
+	.button{
+border:0px solid #00655d; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:16px;font-family:times new roman, times, serif; padding: 10px 10px 10px 10px; font-weight:bold; text-align: center; color: #FFFFFF; background-color: #009D91;
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#009D91), to(#00635C));
+ background-image: -webkit-linear-gradient(top, #009D91, #00635C);
+ background-image: -moz-linear-gradient(top, #009D91, #00635C);
+ background-image: -ms-linear-gradient(top, #009D91, #00635C);
+ background-image: -o-linear-gradient(top, #009D91, #00635C);
+ background-image: linear-gradient(to bottom, #009D91, #00635C);
+}
+
+.button:hover{
+ border:1px solid #009186; background-color: #009D91;
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#009D91), top(#008278));
+ background-image: -webkit-linear-gradient(top, #009D91, #008278);
+ background-image: -moz-linear-gradient(top, #009D91, #008278);
+ background-image: -ms-linear-gradient(top, #009D91, #008278);
+ background-image: -o-linear-gradient(top, #009D91, #008278);
+ background-image: linear-gradient(to bottom, #009D91, #008278);
+}
+
+#copyright{
+	background:	#009D91;
+	color:#fff;
+	height:70px;
+	border-top:4px solid #CCC;
+	text-align:center;
+	line-height:35px
+}
+
+#copyright a{
+color:#fff;
+text-decoration:none;
+}
+
+#copyright a:hover{
+	text-decoration:underline;
+}
+
+
+.gallery ul{
+	list-style-type:none;
+	width:1000px;
+	overflow:hidden;
+	padding:10px;
+	margin:20px auto;
+}
+
+.gallery li{
+	float:left;
+	margin:5px;
+}
+
+.gallery a{
+	border:5px solid #333;
+	display:block;
+	height:169px;
+	width:225px;
+	outline: 0;
+	
+}
+
+.gallery a:hover{
+	border-color: #009D91;
+}
+
+.gallery{
+	border-bottom: 5px solid #009D91;
+}
+
+
+.slogan{
+	font-size:70px;
+	font-family: 'Meie Script', cursive;
+	font-weight: lighter;
+	text-align:center;
+}
