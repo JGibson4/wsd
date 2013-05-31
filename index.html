@@ -11,6 +11,7 @@
     
     <body>
     <div class="wrapper">
+    <div class="clear"></div>
         <header>
     
             <h1 id="shout">Welcome Family &amp; Friends</h1>
@@ -19,6 +20,7 @@
             <a href="#">
                 <img src="images/logo1.png" class="logo" alt="Gibson Family logo">
             </a>
+            <div class="clear"></div>
             <aside id="social">
             
             </aside>
@@ -104,20 +106,57 @@
     </section>
 
     
-        <section id="blog">
-            <article>
-                <img src="#" width="450" height="250" alt="">
+        <section id="connect">
+            <article class="table">
+            <h2>What Our Subcribers Get</h2>
+                <table>
+                	<tr>
+                    	<th>Invites</th>
+                        <th>Photos</th>
+                        <th>Video Chat</th>
+                    </tr>
+                    
+                    <tr>
+                    	<td>Get personal invitations to birthdays and other special events!</td>
+                        <td>Recieve Live photo updates and be part of the experience!</td>
+                        <td>Get notified when we are online and ready to skype!</td>
+                    </tr>
+                </table>
+            </article>
+			<div class="form">
                 <header>
                     <h2>Stay Updated</h2>
                 </header>
-                <p>Sign-up and stay in the know!</p>
-                <footer class="more">
-                    <a href="#" class="button">Sign-Up</a>
-                </footer>
-            </article>
+                
+                <form method="get" action="mailto:jgibson4@fullsail.edu">
+                
+                <div>
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Joe Doe" name="name" id="name"/>
+                </div>
+                <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" placeholder="###-###-####" name="phone" id="phone"/>
+                </div>
+                <div>
+                <label for="email">Email Address:</label>
+                <input type="email"  placeholder="you@domain.com" name="email" id="email"/>
+                </div>
+                <label>Select One:</label>
+                <select>  <option value="events">Events</option>
+                		<option value="photos">Photos</option>
+                		<option value="chat">Chat</option>
+                </select>
+                <input type="checkbox" name="notify" value="notify">Send Me Everything! 
+				<button id="submit" type="submit">Submit Form</button> 
+                </form>
+                </div>
+                
         </section>
+            <div class="clear"></div>
+
         <footer id="copyright">
-            <p class="fl_left">Copyright &copy; 2013 - All Rights Reserved -
+            <p>Copyright &copy; 2013 - All Rights Reserved -
                 <a href="#">The Gibson's</a>
             </p>
         </footer>

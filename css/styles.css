@@ -10,6 +10,7 @@ body{
 	color:#333; 
 	background-color:white;
 	width:100%;
+	max-width:1600px;
 	
 }
 
@@ -41,7 +42,9 @@ body{
 	margin-top:-51.88679% ;
 	color:#804000;
 }
-
+.clear{
+	clear:both;	
+}
 #main{
 	display:block; 
 	width:100%; 
@@ -61,6 +64,7 @@ body{
 #main ul{
 background-color:#fff;	
 height:120px;
+border-bottom: 5px solid #009D91;
 box-shadow: 0px 15px 50px #5E5E5E;
 position:fixed;
 opacity:0.9;
@@ -103,13 +107,14 @@ overflow:hidden;
 
 #shout{display:block; 
 width:45.83333%;
+
 }
 #shout{display:block; 
 float:right; 
 width:60%; 
 line-height:1.3em;
 margin-top: 15.35952% ;
-clear:right;
+clear:both;
 padding:0;
 }
 #shout h1{display:inline-block; 
@@ -124,6 +129,7 @@ text-transform:uppercase;
 
 .logo{
 width:40%; 
+max-width:40%;
 height:auto; 
 margin:0; 
 padding:0; 
@@ -147,7 +153,7 @@ margin-top:10.54875% ;
 	text-align:center;
 	font-size:1.063em;
 	line-height:1.667em;
-	clear:right;
+	clear:both;
 	vertical-align:middle;
 }
 
@@ -272,22 +278,133 @@ text-decoration:none;
 	text-align:center;
 }
 
+table{
+	border-collapse:collapse;
+	border:1px solid #ccc;
+	width:50%;
+	text-align:center;
+	margin:0 auto;
+	margin-bottom:0.866%;
+	
+}
+
+td{
+	border:1px solid #ccc;
+	padding:0.3em;
+}
+
+th{
+	text-align:center;
+	background-color:#009D91;
+	color:#fff;
+	padding:0.3em;
+}
+
+.table{
+text-align:center;	
+}
+
+.form{
+	background-color:#009D91;
+	width:50%;
+	margin:0 auto;
+	border-radius:3px;
+	height:auto;
+	text-align:left;
+	padding:0.3em;
+	margin-bottom: 0.866%;
+	color:#fff;
+	
+	
+}
+
+.form label {
+	width:30.61224% ;
+	margin-top: 3px;
+	display:inline-block;
+	float:left;
+	padding:3px;
+}
+.form input {
+	height:20px; 
+	padding:5px 8px 10px;
+	margin:5px;
+}
+
+.form button {margin-left:31.45161% ;}
+
+	.form input { 
+		border:1px solid #aaa;
+		box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+		border-radius:2px;
+		padding-right:7.66667% ;
+		-moz-transition: padding .25s; 
+		-webkit-transition: padding .25s; 
+		-o-transition: padding .25s;
+		transition: padding .25s;
+	}
+	.form input:focus {
+		background: #E6E6E6;
+		border:1px solid #555; 
+		box-shadow: 0 0 3px #aaa; 
+		padding-right:11.81818% ;
+	}
+	
+#submit {
+	background-color: #ccc;
+	background: -webkit-gradient(linear, left top, leftbottom, from(#ccc), to(#fff));
+	background: -webkit-linear-gradient(top, #ccc, #fff);
+	background: -moz-linear-gradient(top, #ccc, #fff);
+	background: -ms-linear-gradient(top, #ccc, #fff);
+	background: -o-linear-gradient(top, #ccc, #fff);
+	border: 1px solid #999;
+	border-bottom: 1px solid #999;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	color: black;
+	font-weight: bold;
+	padding: 6px 20px;
+	text-align: center;
+}
+#submit:hover {
+	opacity:.85;
+	cursor: pointer; 
+}
+#submit:active {
+	border: 1px solid #009186;
+	box-shadow: 0 0 10px 5px #009186 inset; 
+	-webkit-box-shadow:0 0 10px 5px #009186 inset ;
+	-moz-box-shadow: 0 0 10px 5px #009186 inset;
+	-ms-box-shadow: 0 0 10px 5px #009186 inset;
+	-o-box-shadow: 0 0 10px 5px #009186 inset;
+	
+}
+#connect{
+	width:100%;	
+}
+
+
+
 /*media queries*/
 
 @media only screen and (min-width:768px) and (max-width: 959px) {
 	
 	.logo {display:none;}
 	#shout{width:100%; margin-top:29.34343%;}
-	.shout{width:100%; padding-left:11.04972% ; border-bottom:5px solid #009D91;}
-	#main ul{width:100%; height:inherit; padding-bottom:0;}
+	.shout{width:100%; padding-left:11.04972% ;}
+	#main ul{width:100%; overflow:scroll; display:block;   padding-bottom:0;}
+	
 }
 
 
 @media only screen and (min-width:480px) and (max-width: 767px) {
 		.logo {display:none;}
 		#shout{width:100%; margin-top:59.34343% ;}
-	.shout{width:100%; padding-left:11.04972% ; border-bottom:5px solid #009D91;}
-	#main ul{width:60%;padding-bottom:0;}
+	.shout{width:100%; padding-left:11.04972% ;}
+	#main ul{width:100%; overflow:scroll; padding-bottom:0;}
 
 }
 
@@ -296,8 +413,9 @@ text-decoration:none;
 	
 		.logo {display:none;}
 		#shout{width:100%; margin-top:30.60811% ;}
-	.shout{width:100%; padding-left:11.04972%; border-bottom:5px solid #009D91;}
-	#main ul{width:100%;padding-bottom:0;}
+	.shout{width:100%; padding-left:11.04972%;}
+	#main ul{width:100%; overflow:scroll;  padding-bottom:0;}
 	.button{display:none;}
 	.gallery{display:none;}
 }
+
